@@ -3,6 +3,7 @@ galaxy_info:
   author: "Sergio Borges"
   company: Layer2
   license: BSD
+  description: influxdb Database to telemetry MTD
   min_ansible_version: 2.0
   platforms:
     - name: EL
@@ -11,7 +12,7 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - trusty
-  categories:
+  galaxy_tags:
     - influxdb
     - monitoring
     - database
